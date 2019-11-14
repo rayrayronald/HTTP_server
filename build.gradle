@@ -16,6 +16,9 @@ war{
         }
     }
 }
+task stage(dependsOn: ['build', 'clean'])
+
+build.mustRunAfter clean
 dependencies {
     // To include gson - google's json helper libraries (no later than v2.7!)
     compile group: 'com.google.code.gson', name:'gson', version: '2.7'
