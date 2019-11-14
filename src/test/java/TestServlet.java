@@ -35,6 +35,6 @@ public class TestServlet {
         MyServlet myServlet=new MyServlet();
         myServlet.doGet(request,response);
         String output=stringWriter.getBuffer().toString();
-        Assert.assertThat(output,is(equalTo("OK")));
+        Assert.assertThat(output,is(equalTo("Hello, world!")));
     }
 }
