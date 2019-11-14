@@ -1,0 +1,8 @@
+Nov 14, 2019 2:14:15 PM MyServlet doGet
+INFO: In constructor
+Nov 14, 2019 2:14:15 PM MyServlet doGet
+WARNING: Running low on memory
+Nov 14, 2019 2:14:15 PM MyServlet doGet
+SEVERE: Can't allocate memory
+Nov 14, 2019 2:14:15 PM MyServlet doPost
+INFO: {"name":"Tom","phone":749431122,"ID":12}
